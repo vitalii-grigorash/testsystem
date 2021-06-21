@@ -1,0 +1,79 @@
+.top-panel {
+    display: flex;
+    margin: 42px 32px 0 auto;
+}
+.top-panel-card {
+    display: flex;
+    flex-direction: column;
+    width: 265px;
+    height: 112px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDE4;
+    border-radius: 0 0 20px 20px;
+    margin-right: 16px;
+}
+.top-panel-card_red-border {
+    border-top: 4px solid #F43434;
+}
+.top-panel-card_blue-border {
+    border-top: 4px solid #2F80ED;
+}
+.top-panel-card_green-border {
+    border-top: 4px solid #07AB21;
+}
+.top-panel-card_orange-border {
+    border-top: 4px solid #E38903;
+}
+.top-panel-card_purple-border {
+    border-top: 4px solid #862FD7;
+}
+.top-panel-card:last-of-type {
+    margin-right: 0;
+}
+.top-panel-card__heading-info {
+    display: flex;
+    margin: 27px auto 0 21px;
+    align-items: center;
+}
+.top-panel-card__info-text {
+    font-family: 'Play', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin: 0 98px 0 0;
+}
+.top-panel-card__info-text_red {
+    color: #EB5757;
+}
+.top-panel-card__info-text_blue {
+    color: #2F80ED;
+}
+.top-panel-card__info-text_green {
+    color: #27AE60;
+}
+.top-panel-card__info-text_orange {
+    color: #F2994A;
+}
+.top-panel-card__info-text_purple {
+    color: #9B51E0;
+}
+.top-panel-card__arrow-icon {
+    width: 17px;
+    height: 14px;
+}
+.top-panel-card__info {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #15195F;
+    opacity: 0.7;
+    margin: 20px auto 25px 21px
+}
+.top-panel-card__info_span {
+    opacity: 1;
+    margin: 0;
+}

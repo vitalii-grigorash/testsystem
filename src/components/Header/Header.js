@@ -5,7 +5,11 @@ import bell from '../../images/bell.svg';
 import settings from '../../images/settings.svg';
 import ava from '../../images/ava.png';
 
-function Header() {
+function Header(props) {
+
+  const {
+    logout
+  } = props
 
   return (
 
@@ -25,7 +29,7 @@ function Header() {
             <p className="header__nav-link">Система</p>
         </div>
         <div className="header__user">
-            <button className="header__user-help">Помощь</button>
+            <button className="header__user-exit" onClick={logout}>Выйти</button>
             <img src={bell} alt="Иконка колокольчика" className="header__user-bell" />
             <img src={settings} alt="Иконка шестеренки" className="header__user-settings" />
             <img src={ava} alt="Иконка шестеренки" className="header__user-ava" />
