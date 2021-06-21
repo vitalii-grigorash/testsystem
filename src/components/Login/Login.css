@@ -1,0 +1,127 @@
+.login {
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.login__container {
+    display: flex;
+    margin: auto;
+    width: 1232px;
+    height: 760px;
+    background: #15195F;
+    border-radius: 32px;
+}
+.login__heading {
+    font-family: 'Play', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFEFE;
+    margin: auto;
+}
+.form-container {
+    font-family: 'Play', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 764px;
+    margin: 0;
+    background: #FFFFFF;
+    border-radius: 32px;
+    box-shadow: 0px 0px 0px 1px #FFFFFF; 
+}
+.form-container__link {
+    display: flex;
+    margin: 39px auto 0 50px;
+    text-decoration: none;
+    color: #333333;
+    opacity: 0.5;
+}
+.form-container__link-vektor {
+    margin: auto 10px auto 0;
+}
+.form-container__link-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.1px;
+    margin: auto 0;
+}
+.form-container__headig {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #232428;
+    max-width: 360px;
+    margin: 50px auto 0;
+}
+@media screen and (max-width: 1280px) {
+    .login__heading {
+        display: none;
+    }
+    .login__container {
+        width: auto;
+        background: #FFFFFF;
+    }
+}
+@media screen and (max-width: 850px) {
+    .login__container {
+       height: 664px;
+    }
+    .form-container {
+        width: 608px;
+        /* border-bottom-right-radius: 32px;
+        border-top-right-radius: 32px; */
+    }
+    .form-container__link {
+        margin: 24px auto 0 52px;
+    }
+    .form-container__headig {
+        font-size: 26px;
+        line-height: 36px;
+        max-width: 293px;
+        margin: 15px auto 0;
+    }
+}
+@media screen and (max-width: 690px) {
+    .login__container {
+       height: 537px;
+       overflow: visible;
+    }
+    .form-container {
+        width: 343px;
+    }
+    .form-container__link {
+        margin: -35px auto 0 10px;
+    }
+    .form-container__headig {
+        font-size: 22px;
+        line-height: 30px;
+        max-width: 248px;
+        margin: 55px auto 0;
+    }
+    .form-container__link-text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .form-container__link-vektor {
+        width: 4px;
+        height: 6px;
+        margin: auto 8px auto 0;
+    }
+}
+@media screen and (max-width: 350px) {
+    .form-container {
+        width: 280px;
+    }
+}

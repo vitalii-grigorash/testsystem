@@ -1,0 +1,53 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    margin: 42px auto 0 32px;
+}
+.sidebar__heading-container {
+    width: 416px;
+    border-bottom: 1px solid #DDDDE4;
+}
+.sidebar__heading {
+    font-family: 'Play', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #15195F;
+    margin: 0 auto 35px 0;
+}
+.sidebar__news-container {
+    display: flex;
+}
+.sidebar__news {
+    font-family: 'Play', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #15195F;
+    margin: 35px 5px 0 0;
+}
+.sidebar__news-value {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 24px;
+    color: #15195F;
+    opacity: 0.7;
+    margin: 23px 16px auto 0;
+}
+.sidebar__news-close {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 24px;
+    color: #15195F;
+    opacity: 0.7;
+    margin: 31px auto auto 0;
+    cursor: pointer;
+}
