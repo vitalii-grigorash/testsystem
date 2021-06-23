@@ -3,5 +3,11 @@
 }
 .dashboard__main-container {
     display: flex;
+    margin: 42px 32px 0;
+}
+.dashboard__info-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
     width: 100%;
 }

@@ -5,6 +5,7 @@
     margin: 37px auto 0 0;
 }
 .sidebar-card {
+    font-family: 'IBM Plex Sans', sans-serif;
     display: flex;
     flex-direction: column;
     border-radius: 0 0 16px 16px;
@@ -56,7 +57,6 @@
     cursor: pointer;
 }
 .sidebar-card__info-time {
-    font-family: 'IBM Plex Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -67,7 +67,6 @@
 }
 .sidebar-card__info {
     margin: 20px auto 0 0;
-    font-family: 'IBM Plex Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -76,7 +75,6 @@
     opacity: 0.9;
 }
 .sidebar-card__info-project {
-    font-family: 'IBM Plex Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -105,7 +103,6 @@
     margin: 0 10px 0 0;
 }
 .sidebar-card__info-status {
-    font-family: 'IBM Plex Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -133,7 +130,6 @@
     margin: 0 10px 0 0;
 }
 .sidebar-card__comment-from {
-    font-family: 'IBM Plex Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;

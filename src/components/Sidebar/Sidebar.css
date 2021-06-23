@@ -1,7 +1,7 @@
 .sidebar {
     display: flex;
     flex-direction: column;
-    margin: 42px auto 0 32px;
+    margin: 0 52px 0 0;
 }
 .sidebar__heading-container {
     width: 416px;
